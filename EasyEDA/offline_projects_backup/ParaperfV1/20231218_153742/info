@@ -1,0 +1,59 @@
+{
+  "uuid": "23771cdb6ff23a043b54a5ac820db4b4",
+  "path": "Offline/ParaperfV1",
+  "name": "ParaperfV1",
+  "content": "",
+  "created_at": "2023-12-18 15:36:31",
+  "updated_at": "2023-12-18 15:37:42",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "9d02823b3478e22f9353e41451ee1dec",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "0f67c9a25cd519f281ecd41d86c5ec1f",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c31a69007a9d47678717a4b9accddf96": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "PORTENTAH7_HIGH_DENSITY",
+          1,
+          "FP_PORTENTAH7_PCB_SOCKET",
+          "U1",
+          {
+            "Manufacturer": "HRS(Hirose)",
+            "Manufacturer Part": "DF40C-80DS-0.4V(51)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C312960",
+            "link": "https://datasheet.lcsc.com/lcsc/2107272240_HRS-Hirose-DF40C-80DS-0-4V-51_C312960.pdf",
+            "Contributor": "cptbaldo",
+            "subpart_no": "1",
+            "spiceSymbolName": "PORTENTAH7_HIGH_DENSITY",
+            "puuid": "ef12b90070a54828b0814da01616aa35",
+            "uuid": "c31a69007a9d47678717a4b9accddf96"
+          }
+        ]
+      ],
+      "updateTime": 1702910262,
+      "createTime": 1702910191,
+      "histories": [],
+      "created_at": "2023-12-18 15:36:31",
+      "updated_at": "2023-12-18 15:37:42"
+    }
+  ],
+  "sort": [],
+  "title": "ParaperfV1",
+  "foldername": "ParaperfV1",
+  "schfilename": "ParaperfV1.json",
+  "schfilemtime": 1702910262873
+}

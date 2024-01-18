@@ -1,0 +1,89 @@
+{
+  "uuid": "de9ea1faac7ebecef5f6ae7bff2d3088",
+  "path": "Offline/Essai_1",
+  "name": "Essai_1",
+  "content": "",
+  "created_at": "2023-12-12 12:17:18",
+  "updated_at": "2023-12-12 12:20:27",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ae0abadfaa1ad165dd32acf40f8355d4",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "4e5452277102b00796201619adfe4dbb",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bb009484ef804a24ac5d18c54b249586": 1,
+        "387a63857d7c4d45ba3420cb381d8732": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          1,
+          "C0603",
+          "C1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "BS-0603-SA-4W",
+          1,
+          "BAT-SMD_BS-06-B4AA012",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C19089123",
+            "Manufacturer": "XUNPU(讯普)",
+            "Manufacturer Part": "BS-0603-SA-4W",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "BS-0603-SA-4W",
+            "puuid": "206fb5a6ff8c44809f3ef14bdcd168af",
+            "uuid": "387a63857d7c4d45ba3420cb381d8732"
+          }
+        ]
+      ],
+      "updateTime": 1702380027,
+      "createTime": 1702379838,
+      "histories": [],
+      "created_at": "2023-12-12 12:17:18",
+      "updated_at": "2023-12-12 12:20:27"
+    }
+  ],
+  "sort": [],
+  "title": "Essai_1",
+  "foldername": "Essai_1",
+  "schfilename": "Essai_1.json",
+  "schfilemtime": 1702380027469
+}

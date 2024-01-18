@@ -1,0 +1,96 @@
+{
+  "uuid": "23771cdb6ff23a043b54a5ac820db4b4",
+  "path": "Offline/ParaperfV1",
+  "name": "ParaperfV1",
+  "content": "",
+  "created_at": "2023-12-18 15:36:31",
+  "updated_at": "2023-12-18 15:52:57",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "9d02823b3478e22f9353e41451ee1dec",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3c6c28557919489989117c8c5d0345c7": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DF40HC(3.5)-80DS-0.4V(51)",
+          2,
+          "CONN-SMD_DF40HC-4.0-80DS-0.4V51",
+          "CN1,CN2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3641790",
+            "Manufacturer": "HRS(广濑)",
+            "Manufacturer Part": "DF40HC(3.5)-80DS-0.4V(51)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "DF40HC(3.5)-80DS-0.4V(51)",
+            "puuid": "f3df6416f2844e2ab5f8519ecbdac0c6",
+            "uuid": "3c6c28557919489989117c8c5d0345c7"
+          }
+        ]
+      ],
+      "updateTime": 1702911134,
+      "createTime": 1702910191,
+      "histories": [],
+      "created_at": "2023-12-18 15:36:31",
+      "updated_at": "2023-12-18 15:52:14"
+    },
+    {
+      "uuid": "483ea976901fccf0455d6c85efc910d6",
+      "puuid": "23771cdb6ff23a043b54a5ac820db4b4",
+      "title": "PCB_ParaperfV1",
+      "filename": "PCB_ParaperfV1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ef12b90070a54828b0814da01616aa35": 1
+      },
+      "BOM": [],
+      "updateTime": 1702910318,
+      "createTime": 1702910318,
+      "histories": [],
+      "created_at": "2023-12-18 15:38:38",
+      "updated_at": "2023-12-18 15:38:38"
+    },
+    {
+      "uuid": "9c88f1211b607b4cdc67cbf386a188e3",
+      "puuid": "23771cdb6ff23a043b54a5ac820db4b4",
+      "title": "PCB_ParaperfV1_2",
+      "filename": "PCB_ParaperfV1_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f3df6416f2844e2ab5f8519ecbdac0c6": 2
+      },
+      "BOM": [],
+      "updateTime": 1702911177,
+      "createTime": 1702911177,
+      "histories": [],
+      "created_at": "2023-12-18 15:52:57",
+      "updated_at": "2023-12-18 15:52:57"
+    }
+  ],
+  "sort": [],
+  "title": "ParaperfV1",
+  "foldername": "ParaperfV1",
+  "schfilename": "ParaperfV1.json",
+  "schfilemtime": 1702911134543
+}
