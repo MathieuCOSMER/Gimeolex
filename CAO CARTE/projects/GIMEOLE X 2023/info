@@ -1,0 +1,249 @@
+{
+  "uuid": "3ea4622c13d6f1b3aca1e1249757612a",
+  "path": "Offline/GIMEOLE%20X%202023",
+  "name": "GIMEOLE X 2023",
+  "content": "",
+  "created_at": "2024-02-16 14:16:11",
+  "updated_at": "2024-02-16 14:16:11",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "75aec037c45f66661f4cd724c587f98b",
+      "title": "GIMEOLE X 2023",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5010db71891142d4a00a188a86fc03bb": 1,
+        "fabd5fe37a824a47b39e5da5e9742727": 1,
+        "b8336a2e34ba4e13b05a71bcbd00ce79": 1,
+        "c826134ece5b4e438e9da68ae4b6f247": 3,
+        "87b27a1360e54fb4912156c736dc38d3": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Adafruit ADS1115 breakout",
+          1,
+          "ADAFRUIT ADS1115",
+          "ADS1115_0X48",
+          {
+            "Manufacturer": "Adafruit",
+            "Manufacturer Part": "1085",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "https://www.adafruit.com/product/1085",
+            "Contributor": "anthonyhorton",
+            "spiceSymbolName": "Adafruit ADS1115 breakout",
+            "puuid": "2051d284d77d4b03848e5a396ae9f248",
+            "uuid": "5010db71891142d4a00a188a86fc03bb"
+          }
+        ],
+        [
+          "1u",
+          4,
+          "RAD-0.1",
+          "C_5V,C_LEM,C_LEM1,C_LEM2",
+          {
+            "Manufacturer Part": "?",
+            "spiceSymbolName": "Capacitor",
+            "puuid": "a726166a50c14916a610aff76ec5c080",
+            "uuid": ""
+          }
+        ],
+        [
+          "CI10S65C4I",
+          3,
+          "TO-220-2L_L10.2-W4.6-P5.08-L",
+          "D1,D2,D3",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2842689",
+            "Manufacturer": "Tokmas(托克马斯)",
+            "Manufacturer Part": "CI10S65C4I",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CI10S65C4I",
+            "puuid": "c80a8181eeb549589ed61dedc8362086",
+            "uuid": "c826134ece5b4e438e9da68ae4b6f247"
+          }
+        ],
+        [
+          "WJ126V-5.0-2P",
+          4,
+          "WJ126V-5.0-2P",
+          "ENTREE_EOLIEN,ENTREE_HUMAIN,ENTREE_PV,SORTIE_BATTERIE",
+          {
+            "Supplier": "EasyEDA",
+            "Manufacturer": "EasyEDA",
+            "Manufacturer Part": "WJ126V-5.0-2P",
+            "Supplier Part": "E8404",
+            "puuid": "69592fb012ec496b98dc55712fb92a3e",
+            "uuid": ""
+          }
+        ],
+        [
+          "CARFUSEHOLDER",
+          1,
+          "CONN-TH_4P-P3.70_CARFUSEHOLDER",
+          "FUSIBLE",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900012101",
+            "Manufacturer": "null",
+            "Manufacturer Part": "CarFuseholder",
+            "link": "https://atta.szlcsc.comnull",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CARFUSEHOLDER",
+            "puuid": "ec980cf4b8644f488005dd927b701b86",
+            "uuid": "b8336a2e34ba4e13b05a71bcbd00ce79"
+          }
+        ],
+        [
+          "1125S-4P",
+          1,
+          "HW4-2.0",
+          "LCD_I2C",
+          {
+            "catid": "20",
+            "description": "DIP Grove",
+            "Supplier": "SeeedStudio",
+            "Manufacturer Part": "1125S-4P",
+            "Supplier Part": "320110033",
+            "puuid": "7b415a7f91a64bc29232c3d72b571f33",
+            "uuid": ""
+          }
+        ],
+        [
+          "LEM 15-NP",
+          3,
+          "LEM TEST",
+          "LEM-EOLE,LEM-HUMAIN,LEM-PV",
+          {
+            "Manufacturer Part": "LEM 15-NP",
+            "Supplier": "lem",
+            "link": "http://www.europowercomponents.com/media/uploads/LTS15-NP.pdf",
+            "Contributor": "sroddier",
+            "Supplier Part": "LEM",
+            "puuid": "c47580772a854f5990af20133e81b854",
+            "uuid": ""
+          }
+        ],
+        [
+          "1k",
+          1,
+          "AXIAL-0.3",
+          "R1K_PONT_TENSION",
+          {
+            "Manufacturer Part": "?",
+            "spiceSymbolName": "Resistor",
+            "puuid": "0437d6ea43a344008eabc8b31fcec72b",
+            "uuid": ""
+          }
+        ],
+        [
+          "6k",
+          1,
+          "AXIAL-0.3",
+          "R6K_PONT_TENSION",
+          {
+            "Manufacturer Part": "?",
+            "spiceSymbolName": "Resistor",
+            "puuid": "0437d6ea43a344008eabc8b31fcec72b",
+            "uuid": ""
+          }
+        ],
+        [
+          "10K",
+          3,
+          "AXIAL-0.3",
+          "R10K_IEOLEB,R10K_IHUMAINB,R10K_PVB",
+          {
+            "Manufacturer Part": "?",
+            "spiceSymbolName": "Resistor",
+            "puuid": "0437d6ea43a344008eabc8b31fcec72b",
+            "uuid": ""
+          }
+        ],
+        [
+          "10k",
+          3,
+          "AXIAL-0.3",
+          "R10K_IEOLEH,R10K_IHUMAINH,R10K_PVH",
+          {
+            "Manufacturer Part": "?",
+            "spiceSymbolName": "Resistor",
+            "puuid": "0437d6ea43a344008eabc8b31fcec72b",
+            "uuid": ""
+          }
+        ],
+        [
+          "L7812ABV",
+          1,
+          "TO-220(TO-220-3)",
+          "REGUL5V",
+          {
+            "catid": "20",
+            "Supplier": "EasyEDA",
+            "Manufacturer": "ST",
+            "Manufacturer Part": "L7812ABV",
+            "Supplier Part": "E29119",
+            "puuid": "9661d337a8612d50c5bfbeb4885a97d8",
+            "uuid": ""
+          }
+        ],
+        [
+          "SK-12E12-G5",
+          1,
+          "SW-TH_SK-12E12-G5",
+          "SW1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C136720",
+            "Manufacturer": "Rectangular Connectors - Contacts",
+            "Manufacturer Part": "SK-12E12-G5",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "SK-12E12-G5",
+            "puuid": "b7f86b20768d4ab8bc42b094a58b1976",
+            "uuid": "87b27a1360e54fb4912156c736dc38d3"
+          }
+        ],
+        [
+          "ESP32-DEVKITC-V4",
+          1,
+          "ESP32-DEVKITC-V4",
+          "U2",
+          {
+            "Manufacturer": "Espressif Systems",
+            "Manufacturer Part": "ESP32-DevKitC",
+            "Supplier": "Mouser",
+            "Supplier Part": "356-ESP32-DEVKITC",
+            "link": "http://esp-idf.readthedocs.io/en/latest/get-started/get-started-devkitc.html",
+            "Contributor": "erol erol",
+            "spiceSymbolName": "ESP32-DEVKITC-V4",
+            "puuid": "b9c3b3f60d3042488951aed8bc18931f",
+            "uuid": "fabd5fe37a824a47b39e5da5e9742727"
+          }
+        ]
+      ],
+      "updateTime": 1708089371,
+      "createTime": 1708089371,
+      "histories": [],
+      "created_at": "2024-02-16 14:16:11",
+      "updated_at": "2024-02-16 14:16:11"
+    }
+  ],
+  "sort": [],
+  "title": "GIMEOLE X 2023",
+  "foldername": "GIMEOLE X 2023",
+  "schfilename": "GIMEOLE X 2023.json",
+  "schfilemtime": 1708089371811
+}
