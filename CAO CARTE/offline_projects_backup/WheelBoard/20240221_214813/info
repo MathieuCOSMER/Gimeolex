@@ -1,0 +1,291 @@
+{
+  "uuid": "867521eba612a94ad6f94ae429bf68cf",
+  "path": "Offline/WheelBoard",
+  "name": "WheelBoard",
+  "content": "",
+  "created_at": "2024-02-21 15:04:27",
+  "updated_at": "2024-02-21 21:48:13",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "95f4857c6260f58aa64e46c775d40008",
+      "title": "LSM Board",
+      "description": "",
+      "docType": "1",
+      "master": "0ac5e52396a7be26535c30673bf84dca",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "12158d4e34c3409abca8f30da8efb085": 4,
+        "8266952134e1429198148169da613d60": 1,
+        "b929e802dc044c66961324a18abd3248": 3,
+        "f7ee3b07db4642c6b5c4260f487d6c58": 1,
+        "b38930ec9dad495da713d58c2c1114c1": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BM04B-SRSS-TB(LF)(SN)",
+          3,
+          "CONN-SMD_BM04B-SRSS-TB",
+          "I2C1,I2C2,I2C-MULTIPLEXER",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C160390",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "BM04B-SRSS-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BM04B-SRSS-TB(LF)(SN)",
+            "puuid": "42e76cf5093a481c826bd2232a7244a9",
+            "uuid": "b929e802dc044c66961324a18abd3248"
+          }
+        ],
+        [
+          "multiplexer",
+          1,
+          "S.MOD.TCA9548A",
+          "M1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "S.MOD.TCA9548A",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "link": "",
+            "Contributor": "rithikaakkumar",
+            "spiceSymbolName": "multiplexer",
+            "puuid": "e8f14930f005425aa9f32fc0b86bd466",
+            "uuid": "8266952134e1429198148169da613d60"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0201",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0201_EU",
+            "Manufacturer Part": "",
+            "puuid": "d516bf8455a74598a65e8cd762b22ef6",
+            "uuid": "f7ee3b07db4642c6b5c4260f487d6c58"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R2010",
+          "R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_2010_EU",
+            "Manufacturer Part": "",
+            "puuid": "c4075c634e0a4f9f882d887a8a405f77",
+            "uuid": "b38930ec9dad495da713d58c2c1114c1"
+          }
+        ],
+        [
+          "ADAFRUIT LSM6DSOX V2",
+          4,
+          "LSM6DSOX",
+          "U1,U2,U3,U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "ADA4438",
+            "Supplier": "Adafruit",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "charlie",
+            "spiceSymbolName": "ADAFRUIT LSM6DSOX V2",
+            "puuid": "a1d06eeeafe949959758da323e3ef888",
+            "uuid": "12158d4e34c3409abca8f30da8efb085"
+          }
+        ],
+        [
+          "MSS22D18G2",
+          1,
+          "SW-TH_MSS22D18GX",
+          "SW4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C431542",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Manufacturer Part": "MSS22D18G2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MSS22D18G2",
+            "puuid": "6405706cdd3d440cae19c289dbe983f8",
+            "uuid": "800e40ccd0ab447e85c03219bde3b6f4"
+          }
+        ]
+      ],
+      "updateTime": 1708548493,
+      "createTime": 1708524267,
+      "histories": [],
+      "created_at": "2024-02-21 15:04:27",
+      "updated_at": "2024-02-21 21:48:13"
+    },
+    {
+      "uuid": "83c311c6df3555bc9c56e67043ea7a36",
+      "title": "H7 Board",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "800e40ccd0ab447e85c03219bde3b6f4": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BM04B-SRSS-TB(LF)(SN)",
+          3,
+          "CONN-SMD_BM04B-SRSS-TB",
+          "I2C,I2C1,I2C2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C160390",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "BM04B-SRSS-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BM04B-SRSS-TB(LF)(SN)",
+            "puuid": "42e76cf5093a481c826bd2232a7244a9",
+            "uuid": "b929e802dc044c66961324a18abd3248"
+          }
+        ],
+        [
+          "multiplexer",
+          1,
+          "S.MOD.TCA9548A",
+          "M1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "S.MOD.TCA9548A",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "link": "",
+            "Contributor": "rithikaakkumar",
+            "spiceSymbolName": "multiplexer",
+            "puuid": "e8f14930f005425aa9f32fc0b86bd466",
+            "uuid": "8266952134e1429198148169da613d60"
+          }
+        ],
+        [
+          "ADAFRUIT LSM6DSOX V2",
+          4,
+          "LSM6DSOX",
+          "U1,U2,U3,U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "ADA4438",
+            "Supplier": "Adafruit",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "charlie",
+            "spiceSymbolName": "ADAFRUIT LSM6DSOX V2",
+            "puuid": "a1d06eeeafe949959758da323e3ef888",
+            "uuid": "12158d4e34c3409abca8f30da8efb085"
+          }
+        ],
+        [
+          "MSS22D18G2",
+          1,
+          "SW-TH_MSS22D18GX",
+          "SW4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C431542",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Manufacturer Part": "MSS22D18G2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MSS22D18G2",
+            "puuid": "6405706cdd3d440cae19c289dbe983f8",
+            "uuid": "800e40ccd0ab447e85c03219bde3b6f4"
+          }
+        ]
+      ],
+      "updateTime": 1708547474,
+      "createTime": 1708547139,
+      "histories": [],
+      "created_at": "2024-02-21 21:25:39",
+      "updated_at": "2024-02-21 21:31:14"
+    },
+    {
+      "uuid": "2b7fae2920b243abfc5fd9cc3cf43eed",
+      "puuid": "867521eba612a94ad6f94ae429bf68cf",
+      "title": "PCB_WheelBoard",
+      "filename": "PCB_WheelBoard.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a1d06eeeafe949959758da323e3ef888": 4,
+        "89b1ad1d095842e6b29128f5786436f4": 1,
+        "04131258d9c54fdd927bf7645adcf864": 1,
+        "2b9ba398f74c46c1b0e68137be1be8cd": 4,
+        "e8f14930f005425aa9f32fc0b86bd466": 1,
+        "42e76cf5093a481c826bd2232a7244a9": 2,
+        "be1b3456245c4373bfecde52b7e1b1d6": 1,
+        "8c26e96bf463405d9ba312bb4fa67ea9": 2,
+        "ca99fe10254a47a7b4dd641b802c2c74": 1,
+        "6405706cdd3d440cae19c289dbe983f8": 1
+      },
+      "BOM": [],
+      "updateTime": 1708546635,
+      "createTime": 1708527600,
+      "histories": [],
+      "created_at": "2024-02-21 16:00:00",
+      "updated_at": "2024-02-21 21:17:15"
+    },
+    {
+      "uuid": "fbe429db1e9933e6735937f8adeeddb0",
+      "puuid": "867521eba612a94ad6f94ae429bf68cf",
+      "title": "PCB_WheelBoard_2",
+      "filename": "PCB_WheelBoard_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "89b1ad1d095842e6b29128f5786436f4": 1,
+        "42e76cf5093a481c826bd2232a7244a9": 2,
+        "e8f14930f005425aa9f32fc0b86bd466": 1,
+        "04131258d9c54fdd927bf7645adcf864": 1,
+        "a1d06eeeafe949959758da323e3ef888": 4,
+        "2b9ba398f74c46c1b0e68137be1be8cd": 4
+      },
+      "BOM": [],
+      "updateTime": 1708545602,
+      "createTime": 1708545584,
+      "histories": [],
+      "created_at": "2024-02-21 20:59:44",
+      "updated_at": "2024-02-21 21:00:02"
+    }
+  ],
+  "sort": [
+    "95f4857c6260f58aa64e46c775d40008",
+    "83c311c6df3555bc9c56e67043ea7a36"
+  ],
+  "title": "WheelBoard",
+  "foldername": "WheelBoard",
+  "schfilename": "WheelBoard.json",
+  "schfilemtime": 1708548493975
+}

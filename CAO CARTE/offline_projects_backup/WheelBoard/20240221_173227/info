@@ -1,0 +1,254 @@
+{
+  "uuid": "867521eba612a94ad6f94ae429bf68cf",
+  "path": "Offline/WheelBoard",
+  "name": "WheelBoard",
+  "content": "",
+  "created_at": "2024-02-21 15:04:27",
+  "updated_at": "2024-02-21 17:32:27",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "95f4857c6260f58aa64e46c775d40008",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "12158d4e34c3409abca8f30da8efb085": 4,
+        "36bd8208a400480098f5342e8f7556e8": 1,
+        "831db12fb02e475c9412401c9bdbab33": 4,
+        "a1829411eaef452ea1f8f111b5429279": 1,
+        "264b1d49e1c2438d9699c1552402153c": 1,
+        "68f4cea971de4c13a38a863064e6113a": 1,
+        "8266952134e1429198148169da613d60": 1,
+        "222e2733b2334bd58905ea71b1bc153e": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BM12B-SRSS-TB(LF)(SN)",
+          1,
+          "CONN-SMD_BM12B-SRSS-TB-LF-SN",
+          "CN1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C160398",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "BM12B-SRSS-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BM12B-SRSS-TB(LF)(SN)",
+            "puuid": "68023ecccd834f2fa6b34f9618c3ed23",
+            "uuid": "68f4cea971de4c13a38a863064e6113a"
+          }
+        ],
+        [
+          "DF40C-80DP-0.4V(51)",
+          2,
+          "CONN-SMD_DF40C-80DP-0.4V-51",
+          "CN2,CN3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C294544",
+            "Manufacturer": "HRS(广濑)",
+            "Manufacturer Part": "DF40C-80DP-0.4V(51)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "DF40C-80DP-0.4V(51)",
+            "puuid": "9dfcbee336c34570a535b1a2359a4191",
+            "uuid": "222e2733b2334bd58905ea71b1bc153e"
+          }
+        ],
+        [
+          "Interruptor_2P-2C-C",
+          1,
+          "INTERRUPTOR_2P-2C",
+          "I1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "https://www.cetronic.es/sqlcommerce/disenos/plantilla1/seccion/producto/DetalleProducto.jsp?idIdioma=&idTienda=93&codProducto=999019226&cPath=515",
+            "Contributor": "salomo",
+            "spiceSymbolName": "Interruptor_2P-2C-C",
+            "puuid": "89b1ad1d095842e6b29128f5786436f4",
+            "uuid": "a1829411eaef452ea1f8f111b5429279"
+          }
+        ],
+        [
+          "multiplexer",
+          1,
+          "S.MOD.TCA9548A",
+          "M1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "S.MOD.TCA9548A",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "link": "",
+            "Contributor": "rithikaakkumar",
+            "spiceSymbolName": "multiplexer",
+            "puuid": "e8f14930f005425aa9f32fc0b86bd466",
+            "uuid": "8266952134e1429198148169da613d60"
+          }
+        ],
+        [
+          "SS12D10G4 071",
+          1,
+          "SW-TH_SHOU-HAN_SS12D10G4",
+          "SW1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2887259",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Manufacturer Part": "SS12D10G4 071",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SS12D10G4 071",
+            "puuid": "04131258d9c54fdd927bf7645adcf864",
+            "uuid": "264b1d49e1c2438d9699c1552402153c"
+          }
+        ],
+        [
+          "ADAFRUIT LSM6DSOX V2",
+          4,
+          "LSM6DSOX",
+          "U1,U2,U3,U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "ADA4438",
+            "Supplier": "Adafruit",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "charlie",
+            "spiceSymbolName": "ADAFRUIT LSM6DSOX V2",
+            "puuid": "a1d06eeeafe949959758da323e3ef888",
+            "uuid": "12158d4e34c3409abca8f30da8efb085"
+          }
+        ],
+        [
+          "Jumper 3-Pin",
+          4,
+          "3-PINS",
+          "U5,U7,U8,U9",
+          {
+            "Manufacturer Part": "Stiftleiste",
+            "Contributor": "dennismoe",
+            "Supplier Part": "ZB02039-003",
+            "Supplier": "",
+            "link": "https://eckstein-shop.de/Single-Double-Row-Pin-Female-Male-Header-Strip-for-Arduino-PCB-DIY-Stiftleiste-1x40-Pin-straightA-20-Stuecke",
+            "spiceSymbolName": "Jumper 3-Pin",
+            "puuid": "2b9ba398f74c46c1b0e68137be1be8cd",
+            "uuid": "831db12fb02e475c9412401c9bdbab33"
+          }
+        ],
+        [
+          "PORTENTAH7_PCB_SOCKET",
+          1,
+          "FP_PORTENTAH7_PCB_SOCKET",
+          "U6",
+          {
+            "Manufacturer": "HRS(Hirose)",
+            "Manufacturer Part": "DF40C-80DS-0.4V(51)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C312960",
+            "link": "https://datasheet.lcsc.com/lcsc/2107272240_HRS-Hirose-DF40C-80DS-0-4V-51_C312960.pdf",
+            "Contributor": "cptbaldo",
+            "spiceSymbolName": "PORTENTAH7_PCB_SOCKET",
+            "Package Display": "Yes",
+            "puuid": "3e7b876577f44b4f80bde208cfb43ec0",
+            "uuid": "36bd8208a400480098f5342e8f7556e8"
+          }
+        ]
+      ],
+      "updateTime": 1708532979,
+      "createTime": 1708524267,
+      "histories": [],
+      "created_at": "2024-02-21 15:04:27",
+      "updated_at": "2024-02-21 17:29:39"
+    },
+    {
+      "uuid": "2b7fae2920b243abfc5fd9cc3cf43eed",
+      "puuid": "867521eba612a94ad6f94ae429bf68cf",
+      "title": "PCB_WheelBoard",
+      "filename": "PCB_WheelBoard.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a1d06eeeafe949959758da323e3ef888": 4,
+        "3e7b876577f44b4f80bde208cfb43ec0": 1,
+        "68023ecccd834f2fa6b34f9618c3ed23": 1,
+        "89b1ad1d095842e6b29128f5786436f4": 1,
+        "04131258d9c54fdd927bf7645adcf864": 1,
+        "2b9ba398f74c46c1b0e68137be1be8cd": 4,
+        "e8f14930f005425aa9f32fc0b86bd466": 1,
+        "9dfcbee336c34570a535b1a2359a4191": 2
+      },
+      "BOM": [],
+      "updateTime": 1708533021,
+      "createTime": 1708527600,
+      "histories": [],
+      "created_at": "2024-02-21 16:00:00",
+      "updated_at": "2024-02-21 17:30:21"
+    },
+    {
+      "uuid": "ea39fc6aa889a8db9e713898c27351b0",
+      "puuid": "867521eba612a94ad6f94ae429bf68cf",
+      "title": "PCB_WheelBoard_4",
+      "filename": "PCB_WheelBoard_4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "36b1306a115341f4b4d9407fb34974e0": 1,
+        "19c77e72422b43b59c26b9fa67af5de4": 1,
+        "a1d06eeeafe949959758da323e3ef888": 4,
+        "3e7b876577f44b4f80bde208cfb43ec0": 1
+      },
+      "BOM": [],
+      "updateTime": 1708528259,
+      "createTime": 1708528233,
+      "histories": [],
+      "created_at": "2024-02-21 16:10:33",
+      "updated_at": "2024-02-21 16:10:59"
+    },
+    {
+      "uuid": "4b603101e8b16f57fe03a5b0c9e175ae",
+      "puuid": "867521eba612a94ad6f94ae429bf68cf",
+      "title": "PCB_WheelBoard_5",
+      "filename": "PCB_WheelBoard_5.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "36b1306a115341f4b4d9407fb34974e0": 1,
+        "19c77e72422b43b59c26b9fa67af5de4": 1,
+        "a1d06eeeafe949959758da323e3ef888": 4,
+        "3e7b876577f44b4f80bde208cfb43ec0": 3
+      },
+      "BOM": [],
+      "updateTime": 1708528594,
+      "createTime": 1708528530,
+      "histories": [],
+      "created_at": "2024-02-21 16:15:30",
+      "updated_at": "2024-02-21 16:16:34"
+    }
+  ],
+  "sort": [],
+  "title": "WheelBoard",
+  "foldername": "WheelBoard",
+  "schfilename": "WheelBoard.json",
+  "schfilemtime": 1708532979079
+}

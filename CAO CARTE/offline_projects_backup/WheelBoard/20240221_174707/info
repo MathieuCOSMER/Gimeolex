@@ -1,0 +1,173 @@
+{
+  "uuid": "867521eba612a94ad6f94ae429bf68cf",
+  "path": "Offline/WheelBoard",
+  "name": "WheelBoard",
+  "content": "",
+  "created_at": "2024-02-21 15:04:27",
+  "updated_at": "2024-02-21 17:47:07",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "95f4857c6260f58aa64e46c775d40008",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "9c9b35ba842c644c1c885c8b51eb68e4",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "12158d4e34c3409abca8f30da8efb085": 4,
+        "831db12fb02e475c9412401c9bdbab33": 4,
+        "a1829411eaef452ea1f8f111b5429279": 1,
+        "264b1d49e1c2438d9699c1552402153c": 1,
+        "8266952134e1429198148169da613d60": 1,
+        "b929e802dc044c66961324a18abd3248": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Interruptor_2P-2C-C",
+          1,
+          "INTERRUPTOR_2P-2C",
+          "I1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "https://www.cetronic.es/sqlcommerce/disenos/plantilla1/seccion/producto/DetalleProducto.jsp?idIdioma=&idTienda=93&codProducto=999019226&cPath=515",
+            "Contributor": "salomo",
+            "spiceSymbolName": "Interruptor_2P-2C-C",
+            "puuid": "89b1ad1d095842e6b29128f5786436f4",
+            "uuid": "a1829411eaef452ea1f8f111b5429279"
+          }
+        ],
+        [
+          "BM04B-SRSS-TB(LF)(SN)",
+          2,
+          "CONN-SMD_BM04B-SRSS-TB",
+          "I2C1,I2C2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C160390",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "BM04B-SRSS-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BM04B-SRSS-TB(LF)(SN)",
+            "puuid": "42e76cf5093a481c826bd2232a7244a9",
+            "uuid": "b929e802dc044c66961324a18abd3248"
+          }
+        ],
+        [
+          "multiplexer",
+          1,
+          "S.MOD.TCA9548A",
+          "M1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "S.MOD.TCA9548A",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "link": "",
+            "Contributor": "rithikaakkumar",
+            "spiceSymbolName": "multiplexer",
+            "puuid": "e8f14930f005425aa9f32fc0b86bd466",
+            "uuid": "8266952134e1429198148169da613d60"
+          }
+        ],
+        [
+          "SS12D10G4 071",
+          1,
+          "SW-TH_SHOU-HAN_SS12D10G4",
+          "SW1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2887259",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Manufacturer Part": "SS12D10G4 071",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SS12D10G4 071",
+            "puuid": "04131258d9c54fdd927bf7645adcf864",
+            "uuid": "264b1d49e1c2438d9699c1552402153c"
+          }
+        ],
+        [
+          "ADAFRUIT LSM6DSOX V2",
+          4,
+          "LSM6DSOX",
+          "U1,U2,U3,U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "ADA4438",
+            "Supplier": "Adafruit",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "charlie",
+            "spiceSymbolName": "ADAFRUIT LSM6DSOX V2",
+            "puuid": "a1d06eeeafe949959758da323e3ef888",
+            "uuid": "12158d4e34c3409abca8f30da8efb085"
+          }
+        ],
+        [
+          "Jumper 3-Pin",
+          4,
+          "3-PINS",
+          "U5,U7,U8,U9",
+          {
+            "Manufacturer Part": "Stiftleiste",
+            "Contributor": "dennismoe",
+            "Supplier Part": "ZB02039-003",
+            "Supplier": "",
+            "link": "https://eckstein-shop.de/Single-Double-Row-Pin-Female-Male-Header-Strip-for-Arduino-PCB-DIY-Stiftleiste-1x40-Pin-straightA-20-Stuecke",
+            "spiceSymbolName": "Jumper 3-Pin",
+            "puuid": "2b9ba398f74c46c1b0e68137be1be8cd",
+            "uuid": "831db12fb02e475c9412401c9bdbab33"
+          }
+        ]
+      ],
+      "updateTime": 1708534027,
+      "createTime": 1708524267,
+      "histories": [],
+      "created_at": "2024-02-21 15:04:27",
+      "updated_at": "2024-02-21 17:47:07"
+    },
+    {
+      "uuid": "2b7fae2920b243abfc5fd9cc3cf43eed",
+      "puuid": "867521eba612a94ad6f94ae429bf68cf",
+      "title": "PCB_WheelBoard",
+      "filename": "PCB_WheelBoard.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a1d06eeeafe949959758da323e3ef888": 4,
+        "3e7b876577f44b4f80bde208cfb43ec0": 1,
+        "68023ecccd834f2fa6b34f9618c3ed23": 1,
+        "89b1ad1d095842e6b29128f5786436f4": 1,
+        "04131258d9c54fdd927bf7645adcf864": 1,
+        "2b9ba398f74c46c1b0e68137be1be8cd": 4,
+        "e8f14930f005425aa9f32fc0b86bd466": 1,
+        "9dfcbee336c34570a535b1a2359a4191": 2
+      },
+      "BOM": [],
+      "updateTime": 1708533021,
+      "createTime": 1708527600,
+      "histories": [],
+      "created_at": "2024-02-21 16:00:00",
+      "updated_at": "2024-02-21 17:30:21"
+    }
+  ],
+  "sort": [],
+  "title": "WheelBoard",
+  "foldername": "WheelBoard",
+  "schfilename": "WheelBoard.json",
+  "schfilemtime": 1708534027849
+}

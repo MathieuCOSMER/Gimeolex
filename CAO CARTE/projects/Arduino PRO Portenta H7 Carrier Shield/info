@@ -1,0 +1,105 @@
+{
+  "uuid": "c7e534e1df4ca5e8a92419b2c79597c3",
+  "path": "Offline/Arduino%20PRO%20Portenta%20H7%20Carrier%20Shield",
+  "name": "Arduino PRO Portenta H7 Carrier Shield",
+  "content": "",
+  "created_at": "2024-02-21 16:05:19",
+  "updated_at": "2024-02-21 16:07:04",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ed49c863f0e661a113d1c0386fccd66c",
+      "title": "schematics",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6d7b551270644cd4af7a2046b87bfd68": 1,
+        "f42e4c512803446fa825cfd0ac4931c1": 23
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "WJ250B-3.50-5P",
+          23,
+          "WJ250B-3.50-5P",
+          "CN1,CN2,CN3,CN4,CN5,CN6,CN7,CN8,CN9,CN10,CN11,CN12,CN13,CN14,CN15,CN16,CN17,CN18,CN19,CN20,CN21,CN22,CN23",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ReliaPro",
+            "Manufacturer Part": "WJ250B-3.50-5P",
+            "image": "//image.lceda.cn/szlcsc/C8453.jpg",
+            "Supplier Part": "C8453",
+            "spiceSymbolName": "WJ250B-3.50-5P",
+            "puuid": "16c6e897978449499b657071d80078c4",
+            "uuid": "f42e4c512803446fa825cfd0ac4931c1"
+          }
+        ],
+        [
+          "DF40C-80DP-0.4V_51_",
+          2,
+          "DF40C80DP04V51",
+          "J1,J2",
+          {
+            "spiceSymbolName": "DF40C-80DP-0.4V_51_",
+            "Manufacturer Part": "",
+            "puuid": "6a1657610f2d4ec09b2ac87f73fb9f7a",
+            "uuid": ""
+          }
+        ],
+        [
+          "ARDUINO_SHIELDNO_SILK BIG",
+          1,
+          "DUEMILANOVE_VIAS",
+          "U1",
+          {
+            "description": "Arduino shield footprint",
+            "Contributor": "SparkFun",
+            "spiceSymbolName": "ARDUINO_SHIELDNO_SILK BIG",
+            "Manufacturer Part": "",
+            "puuid": "83b81e9f0a0a4d73a67b9659dd5a7a9e",
+            "uuid": "6d7b551270644cd4af7a2046b87bfd68"
+          }
+        ]
+      ],
+      "updateTime": 1708527919,
+      "createTime": 1708527919,
+      "histories": [],
+      "created_at": "2024-02-21 16:05:19",
+      "updated_at": "2024-02-21 16:05:19"
+    },
+    {
+      "uuid": "10781940157485499897cf77772052d4",
+      "puuid": "c7e534e1df4ca5e8a92419b2c79597c3",
+      "title": "PCB_Arduino PRO Portenta H7 Carrier Shield",
+      "filename": "PCB_Arduino PRO Portenta H7 Carrier Shield.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "16c6e897978449499b657071d80078c4": 23,
+        "6a1657610f2d4ec09b2ac87f73fb9f7a": 2,
+        "83b81e9f0a0a4d73a67b9659dd5a7a9e": 1
+      },
+      "BOM": [],
+      "updateTime": 1708528024,
+      "createTime": 1708528024,
+      "histories": [],
+      "created_at": "2024-02-21 16:07:04",
+      "updated_at": "2024-02-21 16:07:04"
+    }
+  ],
+  "sort": [],
+  "title": "Arduino PRO Portenta H7 Carrier Shield",
+  "foldername": "Arduino PRO Portenta H7 Carrier Shield",
+  "schfilename": "Arduino PRO Portenta H7 Carrier Shield.json",
+  "schfilemtime": 1708527919710
+}

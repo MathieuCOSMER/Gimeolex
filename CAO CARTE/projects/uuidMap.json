@@ -1,4 +1,13 @@
 {
+  "c7e534e1df4ca5e8a92419b2c79597c3": "Arduino PRO Portenta H7 Carrier Shield",
+  "ed49c863f0e661a113d1c0386fccd66c": "Arduino PRO Portenta H7 Carrier Shield\\Arduino PRO Portenta H7 Carrier Shield.json?schematics",
+  "10781940157485499897cf77772052d4": "Arduino PRO Portenta H7 Carrier Shield\\PCB_Arduino PRO Portenta H7 Carrier Shield.json",
   "3ea4622c13d6f1b3aca1e1249757612a": "GIMEOLE X 2023",
-  "75aec037c45f66661f4cd724c587f98b": "GIMEOLE X 2023\\GIMEOLE X 2023.json?GIMEOLE X 2023"
+  "75aec037c45f66661f4cd724c587f98b": "GIMEOLE X 2023\\GIMEOLE X 2023.json?GIMEOLE X 2023",
+  "448125c1a992eacb042e75bb9217fdcb": "WheelBoard_H7",
+  "b22855b04b4ab3fc96a976ca7c9b9cd4": "WheelBoard_H7\\WheelBoard_H7.json?H7 Board",
+  "1c2f074ec5a7eb9267565e97876ae921": "WheelBoard_H7\\PCB_WheelBoard.json",
+  "867521eba612a94ad6f94ae429bf68cf": "WheelBoard_LSM",
+  "95f4857c6260f58aa64e46c775d40008": "WheelBoard_LSM\\WheelBoard_LSM.json?LSM Board",
+  "6377dc078e122a5f4a9916d964fab7be": "WheelBoard_LSM\\PCB_WheelBoard.json"
 }

@@ -1,0 +1,119 @@
+{
+  "uuid": "867521eba612a94ad6f94ae429bf68cf",
+  "path": "Offline/WheelBoard_LSM",
+  "name": "WheelBoard_LSM",
+  "content": "",
+  "created_at": "2024-02-21 15:04:27",
+  "updated_at": "2024-02-22 14:09:06",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "95f4857c6260f58aa64e46c775d40008",
+      "title": "LSM Board",
+      "description": "",
+      "docType": "1",
+      "master": "a667a4fbe3694b4ceabfbaea7723d32a",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8266952134e1429198148169da613d60": 1,
+        "12158d4e34c3409abca8f30da8efb085": 4,
+        "f5eb7e22ffcf44c7bacdaeb04a734da0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "X03A10H21G",
+          1,
+          "FPC-SMD_21P-P0.60_XKB_X03A10H21G",
+          "FPC1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2880686",
+            "Manufacturer": "XKB Connectivity(中国星坤)",
+            "Manufacturer Part": "X03A10H21G",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "X03A10H21G",
+            "puuid": "a6bc0390a76c4ec19b35f7dac4702d25",
+            "uuid": "f5eb7e22ffcf44c7bacdaeb04a734da0"
+          }
+        ],
+        [
+          "ADAFRUIT LSM6DSOX V2",
+          4,
+          "LSM6DSOX",
+          "IMU1,IMU2,IMU3,IMU4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "ADA4438",
+            "Supplier": "Adafruit",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "charlie",
+            "spiceSymbolName": "ADAFRUIT LSM6DSOX V2",
+            "puuid": "a1d06eeeafe949959758da323e3ef888",
+            "uuid": "12158d4e34c3409abca8f30da8efb085"
+          }
+        ],
+        [
+          "multiplexer",
+          1,
+          "S.MOD.TCA9548A",
+          "M1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "S.MOD.TCA9548A",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "link": "",
+            "Contributor": "rithikaakkumar",
+            "spiceSymbolName": "multiplexer",
+            "puuid": "e8f14930f005425aa9f32fc0b86bd466",
+            "uuid": "8266952134e1429198148169da613d60"
+          }
+        ]
+      ],
+      "updateTime": 1708607346,
+      "createTime": 1708524267,
+      "histories": [],
+      "created_at": "2024-02-21 15:04:27",
+      "updated_at": "2024-02-22 14:09:06"
+    },
+    {
+      "uuid": "6377dc078e122a5f4a9916d964fab7be",
+      "puuid": "867521eba612a94ad6f94ae429bf68cf",
+      "title": "PCB_WheelBoard",
+      "filename": "PCB_WheelBoard.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a1d06eeeafe949959758da323e3ef888": 4,
+        "e8f14930f005425aa9f32fc0b86bd466": 1,
+        "9ea59130ae074fa3abe27de8cbf71d91": 3,
+        "893d50ebc17345e8954f44049ce35e64": 1
+      },
+      "BOM": [],
+      "updateTime": 1708591435,
+      "createTime": 1708554420,
+      "histories": [],
+      "created_at": "2024-02-21 23:27:00",
+      "updated_at": "2024-02-22 09:43:55"
+    }
+  ],
+  "sort": [
+    "95f4857c6260f58aa64e46c775d40008",
+    "83c311c6df3555bc9c56e67043ea7a36"
+  ],
+  "title": "WheelBoard_LSM",
+  "foldername": "WheelBoard_LSM",
+  "schfilename": "WheelBoard_LSM.json",
+  "schfilemtime": 1708607346867
+}

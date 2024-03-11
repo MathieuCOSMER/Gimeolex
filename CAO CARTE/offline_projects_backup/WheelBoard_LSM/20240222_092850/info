@@ -1,0 +1,138 @@
+{
+  "uuid": "867521eba612a94ad6f94ae429bf68cf",
+  "path": "Offline/WheelBoard_LSM",
+  "name": "WheelBoard_LSM",
+  "content": "",
+  "created_at": "2024-02-21 15:04:27",
+  "updated_at": "2024-02-22 09:28:50",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "95f4857c6260f58aa64e46c775d40008",
+      "title": "LSM Board",
+      "description": "",
+      "docType": "1",
+      "master": "21591fad460d7037a988586291974c19",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8266952134e1429198148169da613d60": 1,
+        "e9f71c2386074942b7cef259c39e047b": 3,
+        "12158d4e34c3409abca8f30da8efb085": 4,
+        "77ec244b583844ab92c71778e19a86e7": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.5K-HX-24PWB",
+          1,
+          "FPC-SMD_24P-P0.50_HDGC_0.5K-HX-24PWB",
+          "FPC2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2919499",
+            "Manufacturer": "HDGC(华德共创)",
+            "Manufacturer Part": "0.5K-HX-24PWB",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "0.5K-HX-24PWB",
+            "puuid": "893d50ebc17345e8954f44049ce35e64",
+            "uuid": "77ec244b583844ab92c71778e19a86e7"
+          }
+        ],
+        [
+          "ADAFRUIT LSM6DSOX V2",
+          4,
+          "LSM6DSOX",
+          "IMU1,IMU2,IMU3,IMU4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "ADA4438",
+            "Supplier": "Adafruit",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "charlie",
+            "spiceSymbolName": "ADAFRUIT LSM6DSOX V2",
+            "puuid": "a1d06eeeafe949959758da323e3ef888",
+            "uuid": "12158d4e34c3409abca8f30da8efb085"
+          }
+        ],
+        [
+          "multiplexer",
+          1,
+          "S.MOD.TCA9548A",
+          "M1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "S.MOD.TCA9548A",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "link": "",
+            "Contributor": "rithikaakkumar",
+            "spiceSymbolName": "multiplexer",
+            "puuid": "e8f14930f005425aa9f32fc0b86bd466",
+            "uuid": "8266952134e1429198148169da613d60"
+          }
+        ],
+        [
+          "10kΩ",
+          3,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "RMI,RMO,RSC",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C119347",
+            "Manufacturer": "CCO(千志电子)",
+            "Manufacturer Part": "MF1/4W-10KΩ±1% T",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MF1/4W-10KΩ±1% T52",
+            "puuid": "9ea59130ae074fa3abe27de8cbf71d91",
+            "uuid": "e9f71c2386074942b7cef259c39e047b"
+          }
+        ]
+      ],
+      "updateTime": 1708590530,
+      "createTime": 1708524267,
+      "histories": [],
+      "created_at": "2024-02-21 15:04:27",
+      "updated_at": "2024-02-22 09:28:50"
+    },
+    {
+      "uuid": "6377dc078e122a5f4a9916d964fab7be",
+      "puuid": "867521eba612a94ad6f94ae429bf68cf",
+      "title": "PCB_WheelBoard",
+      "filename": "PCB_WheelBoard.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "42e76cf5093a481c826bd2232a7244a9": 4,
+        "a1d06eeeafe949959758da323e3ef888": 4,
+        "e8f14930f005425aa9f32fc0b86bd466": 1,
+        "9ea59130ae074fa3abe27de8cbf71d91": 3,
+        "79cc37279dc040c9919b10518c4f0ad8": 1
+      },
+      "BOM": [],
+      "updateTime": 1708559695,
+      "createTime": 1708554420,
+      "histories": [],
+      "created_at": "2024-02-21 23:27:00",
+      "updated_at": "2024-02-22 00:54:55"
+    }
+  ],
+  "sort": [
+    "95f4857c6260f58aa64e46c775d40008",
+    "83c311c6df3555bc9c56e67043ea7a36"
+  ],
+  "title": "WheelBoard_LSM",
+  "foldername": "WheelBoard_LSM",
+  "schfilename": "WheelBoard_LSM.json",
+  "schfilemtime": 1708590530792
+}
